@@ -18,24 +18,9 @@
     <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<h3>Login</h3>
-<h4>Form with GET</h4>
-<form action='/handle' method='GET'>
-    <label>Email:</label>
-    <input type="text" name='email'>
-    <label>Password:</label>
-    <input type='text' name='password'>
-    <input type='submit' value='login'>
-</form>
+<h3>Demo</h3>
+<p><c:out value="${email}"></c:out></p>
+<p><c:out value="${password}"></c:out></p>
 
-<h4>Form with POST</h4>
-<form action='/handle' method='POST'>
-    <label>Email:</label>
-    <input type="text" name='email'>
-    <label>Password:</label>
-    <input type='text' name='password'>
-    <input type='submit' value='login'>
-</form>
 </body>
 </html>
-
